@@ -20,7 +20,7 @@ import android.annotation.UnsupportedAppUsage;
 import android.telephony.Rlog;
 
 public abstract class CatLog {
-    static final boolean DEBUG = true;
+    static final boolean DEBUG = false;
 
     @UnsupportedAppUsage
     public static void d(Object caller, String msg) {
